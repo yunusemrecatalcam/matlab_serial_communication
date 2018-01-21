@@ -3,7 +3,6 @@ instrfind
 delete(instrfind);
 
 size=80;%kac kere veri alacagimiz
-time=5 %ne kadar saniye boyunca veri alacagimiz
 
 sObject=serial('COM3','BaudRate',9600); %baud rate ve comu dogru ayarlamak onemli 
 fopen(sObject);
